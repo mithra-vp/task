@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            background-color: rgb(16, 16, 34);
+            padding: 0;
+            margin: 0;
+        }
+        nav{
+            background-color: white;
+            height: 40px;
+            width: 100%;
+            display: flex;
+            justify-content:flex-end;
+            align-items: center;
+            gap: 20px;
+            text-align: center;
+            padding-top: 20px;
+            /* padding: 10px 20px; */
+
+        }
+        nav ul{
+            display: flex;
+            /* justify-content: center; */
+            align-items: center;
+            padding-left: 69%;
+            margin-top: 0;
+            gap: 50px;
+            text-align: center;
+        }
+        nav ul li{
+            color: rgb(16, 16, 34);
+            padding:10px;
+        }
+        nav button{
+            width: 150px;
+            max-width: 200px;
+            padding: 8px 15px;
+            background-color: rgb(16, 16, 34);
+            color: white;
+            border: none;
+            border-radius: 2px;
+            align-items: center;
+        }
+        .main{
+            padding-left: 10%;
+            padding-top: 80px;
+            color: white;
+        }
+        .main p{
+            color: gray;
+        }
+        .btn{
+            background-color: white;
+            border: none;
+            color:  rgb(16, 16, 34);
+            align-items: center;
+            width: 150px;
+            height: 40px;
+            border-radius: 5px;
+        }
+        .btn:hover{
+            background-color: transparent;
+            color: white;
+            border: 2px solid white;
+        }
+        .services{
+            background-color: white;
+        }
+        .h2{
+            text-align: center;
+            padding-top: 30px;
+        }
+        section{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding-left: 30px;
+            gap: 10px;
+        }
+
+
+@media (max-width: 768px) {
+        .main h1{
+            font-size: 1.5rem;
+        }
+        .main p{
+            font-size: 0.9rem;
+        }
+        nav ul li button{
+            gap: 20px;
+        }
+        nav button{
+            height: 20px;
+        }
+
+    }
+
+    @media (max-width: 480px) {
+      .main{
+        padding: 20px 10px;
+        height: auto;
+      }
+    }
+        
+       
+       
+    </style>
+</head>
+<body>
+    <div class="responsive">
+    <nav>
+        <ul type="none">
+            <li><a href="#"></a>Portfolio</li>
+            <li><a href="#"></a>Service</li>
+            <li><a href="#"></a>About</li>
+            <li><a href="#"></a>Blog</li>
+            <button>Contact us</button>
+        </ul>
+    </nav>
+    <div class="main">
+        <h1>Mobile and Web Apps</h1>
+        <h1>Developed Right the</h1>
+        <h1>First Time.</h1>
+        <p>We are create beautiful ios,android and web application to fit your mode.</p>
+        <button class="btn">GET IN TOUCH</button>
+    </div> <br><br><br> <br><br><br>
+    <div class="services">
+       <h2 class="h2">Our services</h2>
+       <section> 
+        <div class="ser">
+            <img src="/images/mobile-development_18725997.png" alt="" height="90px" width="90px">
+            <h2>APP DEVELOPMENT</h2>
+            <P>Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae sed minus labore maiores est explicabo minima eum quae, sit omnis esse maxime ipsa libero ullam harum reiciendis, quibusdam voluptatum quod.</P>
+        </div>
+        <div class="ser1">
+            <img src="/images/graphic-design_2986648.png" alt="" height="90px" width="90px">
+            <h2>MOBILE APP DESIGN</h2>
+            <P>Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio aliquam ipsam autem repudiandae neque illum nostrum placeat quas et, dignissimos voluptate est facilis! Voluptas assumenda dolorem veniam aliquam nostrum deleniti!</P>
+        </div>
+        <div class="ser2">
+            <img src="/images/coding_2704022.png" alt="" height="90px" width="90px">
+            <h2>WEB DEVELOPMENT</h2>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Impedit incidunt, cum sed quasi doloremque aperiam recusandae eum blanditiis alias distinctio! Ipsum mollitia vero tempora, distinctio provident aperiam consectetur esse nostrum.</p>
+        </div>
+        <div class="ser3">
+            <img src="/images/mobile-development_18725997.png" alt="" height="90px" width="90px">
+            <h2>DEVELOPMENT</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos quisquam blanditiis asperiores iure doloremque dolor id similique ipsa aliquam repellendus. Quibusdam quas cupiditate ipsum dolorum quo quae vel odit beatae!</p>
+        </div>
+       </section>
+    </div>
+</body>
+</html>
